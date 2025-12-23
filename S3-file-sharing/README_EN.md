@@ -150,6 +150,7 @@ An event notification configuration was applied so that Amazon S3 publishes even
 
 ### 7. Testing Event Notifications
 Object upload and deletion actions triggered email notifications, while read-only operations did not, confirming the correct behavior of the configuration.
+
 <img width="654" height="691" alt="image" src="https://github.com/user-attachments/assets/9391dc2e-23ca-43c3-b392-f7927bff7131" />
 
 <img width="658" height="671" alt="image" src="https://github.com/user-attachments/assets/9b2985e8-0bb5-4b6e-95e6-53f8e550dc7e" />
