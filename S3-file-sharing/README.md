@@ -72,7 +72,10 @@ aws s3 ls s3://cafe-pincheira/images/ --human-readable --summarize
 ### 3. Revisión de permisos del grupo y usuario IAM
 Revisé el **grupo IAM mediaco** y su política asociada, la cual otorga permisos a nivel de objeto únicamente dentro del prefijo `images/`, aplicando el principio de **mínimo privilegio**.
 
-```bash
+<details>
+<summary>Ver política IAM aplicada (mediaCoPolicy)</summary>
+
+```json
 {
 	"Version": "2012-10-17",
 	"Statement": [
