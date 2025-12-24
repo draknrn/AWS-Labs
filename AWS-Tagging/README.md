@@ -56,6 +56,7 @@ aws ec2 describe-instances --filter "Name=tag:Project,Values=ERPSystem"
 ```
 <details>
   <summary>Ver salida del comando en formato json</summary>
+  ```json
   {
     "Reservations": [
         {
@@ -1145,6 +1146,7 @@ aws ec2 describe-instances --filter "Name=tag:Project,Values=ERPSystem"
         }
     ]
 }
+```
 </details>
 
 <img width="902" height="993" alt="image" src="https://github.com/user-attachments/assets/32014eb9-8b56-4941-b760-71b55d64dbb7" />
