@@ -104,12 +104,17 @@ Mediante consultas SQL se identificó:
 - IP de origen
 - Método de acceso (CLI o consola)
 
-> 📸 **Captura sugerida:** Resultado final de Athena identificando al atacante.
 <details>
-  <summary>Ver .csv de la consulta SQL</summary>
-#	actor	hack_time_utc	source_ip	eventname	useragent	requestparameters	access_method
-1	chaos	2025-12-24T00:02:53Z	44.243.94.245	AuthorizeSecurityGroupIngress	aws-cli/1.18.147 Python/2.7.18 Linux/4.14.355-280.710.amzn2.x86_64 botocore/1.18.6	{"groupId":"sg-0476141b1c602e0df","ipPermissions":{"items":[{"ipProtocol":"tcp","fromPort":22,"toPort":22,"groups":{},"ipRanges":{"items":[{"cidrIp":"0.0.0.0/0"}]},"ipv6Ranges":{},"prefixListIds":{}}]}}	Programmatic (CLI/SDK)
+  <summary>Ver resultados de la consulta SQL</summary>
+User: chaos
+Time: 2025-12-24T00:02:53Z
+IP: 44.243.94.245
+Event Name: AuthorizeSecurityGroupIngress
+User Agent: aws-cli/1.18.147 Python/2.7.18 Linux/4.14.355-280.710.amzn2.x86_64 botocore/1.18.6
+Request Parameters: {"groupId":"sg-0476141b1c602e0df","ipPermissions":{"items":[{"ipProtocol":"tcp","fromPort":22,"toPort":22,"groups":{},"ipRanges":{"items":[{"cidrIp":"0.0.0.0/0"}]},"ipv6Ranges":{},"prefixListIds":{}}]}}
+Access Method: Programmatic (CLI/SDK)
 </details>
+<img width="641" height="41" alt="image" src="https://github.com/user-attachments/assets/e197ab65-2b72-4418-bb6e-38cdc4880194" />
 
 ---
 
