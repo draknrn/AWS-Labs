@@ -1,4 +1,4 @@
-<img width="1862" height="788" alt="image" src="https://github.com/user-attachments/assets/bee8f725-22c8-4dc5-8f4d-901ec6b0b25d" /># Auditoría y Análisis de Incidentes con AWS CloudTrail (AWS Lab)
+# Auditoría y Análisis de Incidentes con AWS CloudTrail (AWS Lab)
 
 ## Descripción general
 En este laboratorio se implementa **AWS CloudTrail** para auditar acciones realizadas dentro de una cuenta AWS, con el objetivo de **investigar un incidente de seguridad** que afectó al sitio web del Café.
